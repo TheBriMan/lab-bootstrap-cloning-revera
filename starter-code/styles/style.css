@@ -1,0 +1,177 @@
+html {
+    font-size: 10px;
+    font-family: sans-serif, arial, helvetica;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.header__nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 5%;
+    background-color: #FFF;
+    list-style-type: none;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: grey;
+    padding: 0px 15px;
+}
+
+.header__nav-link--home {
+    color: coral;
+}
+
+.hero-img {
+    background-image: url(../img/slider-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img__title {
+    font-size: 3.2rem;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.hero-img__desc {
+    font-size: 1.6rem;
+    color: white;
+    width: 80%;
+    text-align: center;
+}
+
+.hero-img__btn {
+    background-color: none;
+    border: white solid 2px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.hero-img__btn:hover {
+    background-color: coral;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    background-color: coral;
+}
+
+.main__title {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    padding: 0px 50px;
+}
+
+.main__title--padding-left {
+    padding-left: 100px;
+}
+
+.main__title--padding-right {
+    padding-right: 100px;
+}
+
+.main__desc {
+    text-align: center;
+    color: white;
+    padding: 0px 50px;
+}
+
+.main__desc--padding-left {
+    padding-left: 105px;
+}
+
+.main__desc--padding-right {
+    padding-right: 105px;
+}
+
+.proj-art {
+    max-width: 80%;
+    margin: auto;
+}
+
+.proj-art__title {
+    font-size: 1.2rem;
+}
+
+.proj-art__desc {
+    color: grey;
+}
+
+.proj-art__hor-rule {
+    color: grey;
+}
+
+.proj-art__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proj-art__img {
+    width: 90%;
+}
+
+.proj-art__cap-date {
+    width: 200px;
+}
+
+.proj-art__read-more {
+    width: 200px;
+}
+
+.text-mod {
+    color: coral;
+}
+
+.footer__sec1 {
+    display: flex;
+    border-top: red solid 2px;
+    background-color: #424242;
+    padding: 0px 105px;
+}
+
+.footer__col {
+    width: 25%;
+}
+
+.footer__title {
+    color: white;
+}
+
+.footer__desc {
+    color: white;
+}
+
+.footer__link {
+    color: white;
+}
+
+.footer__sec2 {
+    background-color: #343836;
+    padding: 2px;
+} 
+
+.footer__copyright {
+    color: white;
+    padding-left: 105px;
+}
